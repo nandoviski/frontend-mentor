@@ -1,0 +1,37 @@
+.mainPage {
+    background-color:  hsl(212, 45%, 89%);
+    height: 100%;
+    width: 100%;
+  }
+
+  .qrCodeMain {
+    width: 220px;
+    height: 340px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* without it, the div will be centered from the top */
+  }
+
+  .qrCodeMain img {
+    border-radius: 10px;
+    margin: 5%;
+    width: 90%;
+  }
+
+  .title {
+
+    text-align: center;
+    margin: 0 5% 5% 5%;
+    color: hsl(218, 44%, 22%);
+  }
+
+  .text {
+    font-size: 11px;
+    text-align: center;
+    margin: 0 10% 10% 10%;
+    color: hsl(214, 8%, 62%);
+  }
